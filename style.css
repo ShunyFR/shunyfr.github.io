@@ -1,0 +1,68 @@
+*
+{
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+h2
+{
+	text-align:center;
+}
+
+div
+{
+	text-align:center;
+    margin-left: auto;
+    margin-right: auto;
+	margin-bottom: 20px;
+	list-style-type: none;
+}
+
+ul
+{
+	float: both;
+}
+
+ul
+{
+	list-style-type: none;
+}
+
+li:before
+{
+	list-style-type: none;
+	content: "- ";
+}
+
+select
+{
+	font-size: 15pt;
+	padding: 5px;
+	width: 400px;
+	min-width: 1px;
+	box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+	border: 1px solid #cccccc;
+	border-radius: 4px;
+}
+
+textarea
+{
+	padding: 5px;
+	width: 790px;
+	line-height: 1.42857;
+	box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+	border: 1px solid #cccccc;
+	border-radius: 4px;
+}
+
+label
+{
+  position: relative; /* permet de positionner les pseudo-éléments */
+  cursor: pointer;    /* affiche un curseur adapté */
+  font-size: 10pt;
+}
+
+#nonfrenchip
+{
+  vertical-align: -2px;
+  margin-right: 10px;
+}
