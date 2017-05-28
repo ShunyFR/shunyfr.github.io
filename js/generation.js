@@ -7,6 +7,7 @@ var swfParameter = "pvswf=http://staticftv-a.akamaihd.net/player/bower_component
 var frenchIpBypass = " --http-header X-Forwarded-For=83.243.20.80";
 var courtToStream = {};
 
+courtToStream['DirectFTV'] = 'http://ftvensport04-lh.akamaihd.net/z/SPORT_LV16@323136/manifest.f4m';
 courtToStream['PhilippeChatrier'] = 'http://ftvensport01-lh.akamaihd.net/z/SPORT_LV01@323121/manifest.f4m';
 courtToStream['SuzanneLenglen'] = 'http://ftvensport01-lh.akamaihd.net/z/SPORT_LV02@323122/manifest.f4m';
 courtToStream['Court1'] = 'http://ftvensport01-lh.akamaihd.net/z/SPORT_LV03@323123/manifest.f4m';
