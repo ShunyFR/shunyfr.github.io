@@ -7,7 +7,6 @@ var swfParameter = "pvswf=http://staticftv-a.akamaihd.net/player/bower_component
 var frenchIpBypass = " --http-header X-Forwarded-For=83.243.20.80";
 var courtToStream = {};
 
-courtToStream['DirectFTV'] = 'http://ftvensport04-lh.akamaihd.net/z/SPORT_LV17@323137/manifest.f4m';
 courtToStream['PhilippeChatrier'] = 'http://ftvensport01-lh.akamaihd.net/z/SPORT_LV01@323121/manifest.f4m';
 courtToStream['SuzanneLenglen'] = 'http://ftvensport01-lh.akamaihd.net/z/SPORT_LV02@323122/manifest.f4m';
 courtToStream['Court1'] = 'http://ftvensport01-lh.akamaihd.net/z/SPORT_LV03@323123/manifest.f4m';
@@ -23,6 +22,8 @@ courtToStream['Court15'] = 'http://ftvensport03-lh.akamaihd.net/z/SPORT_LV12@323
 courtToStream['Court16'] = 'http://ftvensport03-lh.akamaihd.net/z/SPORT_LV13@323133/manifest.f4m';
 courtToStream['Court17'] = 'http://ftvensport03-lh.akamaihd.net/z/SPORT_LV14@323134/manifest.f4m';
 courtToStream['Court18'] = 'http://ftvensport03-lh.akamaihd.net/z/SPORT_LV15@323135/manifest.f4m';
+courtToStream['ConfPresse1'] = 'http://ftvensport04-lh.akamaihd.net/z/SPORT_LV17@323137/manifest.f4m';
+courtToStream['ConfPresse2'] = 'http://ftvensport04-lh.akamaihd.net/z/SPORT_LV18@323138/manifest.f4m';
 
 function generateNewLink()
 {
